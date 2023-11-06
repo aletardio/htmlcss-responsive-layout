@@ -82,7 +82,6 @@ ul {
 
 .col-100 {
     width: 100%;
-    border: 1px dashed black;
     border-radius: 40px;
     margin: 20px 30px;
 }
@@ -191,6 +190,12 @@ ul {
     line-height: 1.5;
 }
 
+.text-col-100 {
+    font-size: 15px;
+    padding: 5px 20px;
+    line-height: 1.5;
+}
+
 .text-card {
     color: black;
     text-align: center;
@@ -263,6 +268,12 @@ ul {
 .black {
     color: black;
     padding: 15px;
+}
+
+.violet-txt {
+    color: #9792E4;
+    font-size: 30px;
+    font-weight: 800;
 }
 
 /* ALTEZZA CONTENT DA ELIMINARE */
@@ -343,6 +354,15 @@ ul {
     .title-white {
         font-size: 40px;
     }
+
+    .violet-txt {
+        font-size: 40px;
+    }
+
+    .text-col-100 {
+        font-size: 18px;
+    }
+
 }
 
 @media screen and (min-width: 1200px) {
@@ -421,6 +441,14 @@ ul {
 
     .phone {
         width: 70%;
+    }
+
+    .violet-txt {
+        font-size: 45px;
+    }
+
+    .text-col-100 {
+        font-size: 18px;
     }
     
 }
