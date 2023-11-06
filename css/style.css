@@ -212,6 +212,14 @@ ul {
     font-size: 15px;
     padding: 5px 20px;
     line-height: 1.5;
+    text-align: center;
+}
+
+.text-100{
+    font-size: 15px;
+    padding: 5px 20px;
+    line-height: 1.5;
+    text-align: center;
 }
 
 .text-card {
@@ -390,7 +398,26 @@ ul {
     }
 
     .text-col-100 {
-        font-size: 18px;
+        font-size: 15px;
+        text-align: start;
+    }
+
+    .d-flex-center {
+        padding: 0 20px;
+    }
+
+    .col-100 .d-flex {
+        flex-direction: row;
+    }
+
+    .center-flex {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .d-flex {
+        flex-direction: row;
     }
 
 }
@@ -473,12 +500,43 @@ ul {
         width: 70%;
     }
 
+    .text {
+        font-size: 15px;
+    }
+
+    .text-white {
+        font-size: 15px;
+    }
+
+    .text-card {
+        font-size: 15px;
+    }
+
     .violet-txt {
         font-size: 45px;
     }
 
     .text-col-100 {
         font-size: 18px;
+        text-align: start;
+    }
+
+    .d-flex-center {
+        padding: 0 20px;
+    }
+
+    .col-100 .d-flex {
+        flex-direction: row;
+    }
+
+    .center-flex {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .d-flex {
+        flex-direction: row;
     }
     
 }
