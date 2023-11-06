@@ -106,10 +106,8 @@ ul {
 
 .col-70 {
     width: 100%;
-    border: 1px dashed black;
     border-radius: 20px;
     margin: 20px;
-    background-color: #9792E4;
 }
 
 .col-66 {
@@ -156,10 +154,8 @@ ul {
 
 .col-30 {
     width: 100%;
-    border: 1px dashed black;
     border-radius: 20px;
     margin: 20px;
-    background-color: #9792E4;
 }
 
 .content {
@@ -219,6 +215,13 @@ ul {
     padding: 5px 20px;
     line-height: 1.5;
     text-align: center;
+}
+
+.text-abt-us {
+    font-size: 15px;
+    line-height: 2;
+    color: black;
+    padding: 20px 0;
 }
 
 .text-card {
@@ -327,6 +330,13 @@ ul {
     padding: 0 30px;
 }
 
+.title-abt-us {
+    font-size: 20px;
+    font-weight: 800;
+    color: #9792E4;
+    line-height: 1.5;
+}
+
 .text-card-number {
     font-size: 15px;
     color: #5A6E7F;
@@ -350,6 +360,20 @@ ul {
     background-color: #fff;
     border: 1px solid #9792E4;
     color: #9792E4;
+}
+
+.btn-abt-us {
+    background-color: #9792E4;
+    color: white;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 30px;
+    word-spacing: 1px;
+    margin-top: 20px;
+}
+
+.padding-about-us {
+    padding: 50px 10px;
 }
 
 /* ALTEZZA CONTENT DA ELIMINARE */
