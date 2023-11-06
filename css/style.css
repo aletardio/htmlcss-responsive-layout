@@ -86,6 +86,24 @@ ul {
     margin: 20px 30px;
 }
 
+.d-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.img-position {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 20px 0;
+}
+
+.d-flex-center {
+    display: flex;
+    justify-content: center;
+}
+
 .col-70 {
     width: 100%;
     border: 1px dashed black;
@@ -273,6 +291,18 @@ ul {
 .violet-txt {
     color: #9792E4;
     font-size: 30px;
+    font-weight: 800;
+}
+
+.test-1 {
+    
+}
+
+.white-txt {
+    color: white;
+}
+
+.bold {
     font-weight: 800;
 }
 
