@@ -21,6 +21,7 @@ ul {
     display: none;
 }
 
+
 .container {
     width: 100%;
     margin: 0 auto;
@@ -96,7 +97,6 @@ ul {
 
 .col-66 {
     width: 100%;
-    border: 1px dashed black;
     border-radius: 20px;
     margin: 20px;
 }
@@ -156,6 +156,42 @@ ul {
 
 .bars {
     justify-content: end;
+}
+
+.title {
+    color: #0084FD;
+    font-weight: 800;
+    font-size: 23px;
+    padding: 25px 20px;
+    text-align: center;
+}
+
+.text {
+    color: #5A6E7F;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 5px 20px;
+    line-height: 1.5;
+}
+
+.btn-apple {
+    background-color: #0084FD;
+    font-weight: 800;
+    color: white;
+    padding: 13px 70px;
+    border-radius: 30px;
+    border: none;
+    margin: 20px;
+}
+
+.phone {
+    width: 80%;
+    display: flex;
+    margin-left: 30px;
+}
+
+.center {
+    text-align: center;
 }
 
 /* ALTEZZA CONTENT DA ELIMINARE */
@@ -225,8 +261,9 @@ ul {
         width: calc(50% - 40px);
     }
 
-
-
+    .phone {
+        width: 45%;
+    }
 }
 
 @media screen and (min-width: 1200px) {
@@ -292,4 +329,11 @@ ul {
     .col-30 {
         width: calc(30% - 40px);
     }
+
+    .phone {
+        width: 50%;
+        float: right;
+        margin: 0 0 0 15px;
+    }
+    
 }
