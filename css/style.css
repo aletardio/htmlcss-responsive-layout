@@ -36,6 +36,10 @@ header {
     background-color: #9792E4;
 }
 
+.darkgrey {
+    background-color: #333333;
+}
+
 .row {
     display: flex;
     width: 100%;
@@ -145,6 +149,10 @@ header {
 
 .height-2 {
     height: 500px;
+}
+
+.height-footer {
+    height: 100px;
 }
 /* ALTEZZA CONTENT DA ELIMINARE */
 
