@@ -127,6 +127,10 @@ ul {
     margin: 20px;
 }
 
+.col-33-phone {
+    width: 100%;
+}
+
 .col-33-viol {
     width: 100%;
     border: 1px dashed black;
@@ -291,7 +295,7 @@ ul {
 
 
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 576px) {
     .container {
         width: 100%;
     }
@@ -328,8 +332,16 @@ ul {
         width: calc(50% - 40px);
     }
 
+    .d-flex-end {
+        display: flex;
+    }
+
     .phone {
         width: 45%;
+    }
+
+    .title-white {
+        font-size: 40px;
     }
 }
 
@@ -338,7 +350,7 @@ ul {
         width: 1200px;
     }
 
-    i {
+    .fa-bars {
         visibility: hidden;
     }
 
@@ -375,6 +387,7 @@ ul {
 
     .col-66 {
         width: calc(66% - 40px);
+        display: flex;
     }
 
     .col-60 {
@@ -393,14 +406,21 @@ ul {
         width: calc(100% / 3 - 40px);
     }
 
+    .col-33-phone {
+        width: 33%;
+    }
+
     .col-30 {
         width: calc(30% - 40px);
     }
 
+    .d-flex-end {
+        display: flex;
+        justify-content: flex-end;
+    }
+
     .phone {
-        width: 50%;
-        float: right;
-        margin: 0 0 0 15px;
+        width: 70%;
     }
     
 }
