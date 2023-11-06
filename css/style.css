@@ -150,7 +150,6 @@ ul {
 
 .col-33-viol {
     width: 100%;
-    border: 1px dashed black;
     border-radius: 20px;
     margin: 20px;
 }
@@ -312,6 +311,45 @@ ul {
 
 .padding-bottom-viol {
     padding-bottom: 50px;
+}
+
+.txt-number {
+    font-size: 50px;
+    font-weight: 800;
+    color: #9792E4;
+    padding: 25px;
+}
+
+.title-card-number {
+    font-size: 20px;
+    font-weight: 800;
+    color: #9792E4;
+    padding: 0 30px;
+}
+
+.text-card-number {
+    font-size: 15px;
+    color: #5A6E7F;
+    padding: 10px 30px;
+    line-height: 1.5;
+    margin: 15px 0;
+}
+
+.btn-violet {
+    background-color: #9792E4;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 800;
+    padding: 10px 40px;
+    border: 1px solid #9792E4;
+    border-radius: 50px;
+    margin: 0 30px;
+}
+
+.btn-violet:hover {
+    background-color: #fff;
+    border: 1px solid #9792E4;
+    color: #9792E4;
 }
 
 /* ALTEZZA CONTENT DA ELIMINARE */
