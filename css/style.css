@@ -125,7 +125,6 @@ ul {
 
 .col-33 {
     width: 100%;
-    border: 1px dashed black;
     border-radius: 20px;
     margin: 20px;
 }
@@ -163,7 +162,6 @@ ul {
     font-weight: 800;
     font-size: 23px;
     padding: 25px 20px;
-    text-align: center;
 }
 
 .text {
@@ -192,6 +190,10 @@ ul {
 
 .center {
     text-align: center;
+}
+
+.padding-bottom-txt {
+    padding-bottom: 20px;
 }
 
 /* ALTEZZA CONTENT DA ELIMINARE */
