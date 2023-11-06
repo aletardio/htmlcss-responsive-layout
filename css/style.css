@@ -302,16 +302,16 @@ ul {
     font-weight: 800;
 }
 
-.test-1 {
-    
-}
-
 .white-txt {
     color: white;
 }
 
 .bold {
     font-weight: 800;
+}
+
+.padding-bottom-viol {
+    padding-bottom: 50px;
 }
 
 /* ALTEZZA CONTENT DA ELIMINARE */
